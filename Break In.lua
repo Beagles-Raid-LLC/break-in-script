@@ -56,7 +56,7 @@ local A_1 = "SwatGun"
 local A_2 = true
 local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
 Event:FireServer(A_1, A_2)
- 
+end)
 
  
 Close.Name = "Close"
@@ -80,7 +80,7 @@ OpenButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 OpenButton.Position = UDim2.new(0.925940275, 0, 0.886497438, 0)
 OpenButton.Size = UDim2.new(0, 54, 0, 19)
 OpenButton.Font = Enum.Font.SourceSans
-OpenButton.Text = "Open"
+OpenButton.Text = "Abreme"
 OpenButton.TextColor3 = Color3.fromRGB(121, 121, 121)
 OpenButton.TextSize = 14.000
 OpenButton.MouseButton1Down:connect(function()
