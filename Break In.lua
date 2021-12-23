@@ -20,7 +20,7 @@ main.Size = UDim2.new(0, 136, 0, 165)
 main.Visible = false
 main.Draggable = true
  
-BreakIn.Name = "lapadiup"
+BreakIn.Name = "BreakIn"
 BreakIn.Parent = main
 BreakIn.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 BreakIn.Position = UDim2.new(-0.235294119, 0, -0.0545454547, 0)
@@ -49,13 +49,11 @@ police.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 police.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
 police.Size = UDim2.new(0, 93, 0, 15)
 police.Font = Enum.Font.SourceSans
-police.Text = "Swat (en el inicio)"
+police.Text = "Swat (SOLO en el inicio)"
 police.TextColor3 = Color3.fromRGB(0, 0, 0)
 police.TextSize = 14.000
-local A_1 = "SwatGun"
-local A_2 = true
-local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
-Event:FireServer(A_1, A_2)
+police.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Beagles-Raid-LLC/break-in-script/main/Swat.Lua", true))()
 end)
 
  
