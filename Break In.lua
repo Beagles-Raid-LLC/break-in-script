@@ -37,7 +37,7 @@ opGui.Position = UDim2.new(0.213235289, 0, 0.25454545, 0)
 opGui.Size = UDim2.new(0, 77, 0, 17)
 opGui.Font = Enum.Font.SourceSans
 opGui.Text = "Esta wea es la buena"
-opGui.TextColor3 = Color3.fromRGB(113, 113, 113)
+opGui.TextColor3 = Color3.fromRGB(174, 160, 40)
 opGui.TextSize = 14.000
 opGui.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/Wg8pEW3Z", true))()
@@ -50,7 +50,7 @@ police.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
 police.Size = UDim2.new(0, 93, 0, 15)
 police.Font = Enum.Font.SourceSans
 police.Text = "Swat (SOLO en el inicio)"
-police.TextColor3 = Color3.fromRGB(0, 0, 0)
+police.TextColor3 = Color3.fromRGB(174, 160, 40)
 police.TextSize = 14.000
 police.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Beagles-Raid-LLC/break-in-script/main/Swat.Lua", true))()
