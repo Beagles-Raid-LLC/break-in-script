@@ -36,7 +36,7 @@ opGui.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 opGui.Position = UDim2.new(0.213235289, 0, 0.25454545, 0)
 opGui.Size = UDim2.new(0, 77, 0, 17)
 opGui.Font = Enum.Font.SourceSans
-opGui.Text = "Esta wea es la buena"
+opGui.Text = "uwu sexo"
 opGui.TextColor3 = Color3.fromRGB(174, 160, 40)
 opGui.TextSize = 14.000
 opGui.MouseButton1Down:connect(function()
@@ -49,7 +49,7 @@ police.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 police.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
 police.Size = UDim2.new(0, 93, 0, 15)
 police.Font = Enum.Font.SourceSans
-police.Text = "Swat (SOLO en el inicio)"
+police.Text = "Swat"
 police.TextColor3 = Color3.fromRGB(174, 160, 40)
 police.TextSize = 14.000
 police.MouseButton1Down:connect(function()
