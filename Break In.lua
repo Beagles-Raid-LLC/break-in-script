@@ -49,7 +49,7 @@ police.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 police.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
 police.Size = UDim2.new(0, 93, 0, 15)
 police.Font = Enum.Font.SourceSans
-police.Text = "Swat"
+police.Text = "BEAG INC."
 police.TextColor3 = Color3.fromRGB(174, 160, 40)
 police.TextSize = 14.000
 police.MouseButton1Down:connect(function()
@@ -78,7 +78,7 @@ OpenButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 OpenButton.Position = UDim2.new(0.925940275, 0, 0.886497438, 0)
 OpenButton.Size = UDim2.new(0, 54, 0, 19)
 OpenButton.Font = Enum.Font.SourceSans
-OpenButton.Text = "Sexo Ahhhh Nyaa"
+OpenButton.Text = "Tren al Sur"
 OpenButton.TextColor3 = Color3.fromRGB(121, 121, 121)
 OpenButton.TextSize = 14.000
 OpenButton.MouseButton1Down:connect(function()
